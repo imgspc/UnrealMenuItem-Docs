@@ -3,7 +3,7 @@
 ## Getting Started
 To start extending the Editor UI in Unreal, follow these steps:
 
-1. Open a project in Unreal 4.25 and create a new plugin. This can be done in the Plugins window (Edit > Plugins) by clicking the "New Plugin" button.
+1. Open a project in Unreal 4.25 and create a new plugin (any template can be chosen). This can be done in the Plugins window (Edit > Plugins) by clicking the "New Plugin" button.
 2. Purchase the Python Toolbar Button and Menu Creator plugin from the Unreal Marketplace and enable it for your project in the Plugins window.
 3. Add the UnrealMenuItem module as a dependency in the plugin descriptor (.uplugin) file of your plugin.
 ```
@@ -45,7 +45,7 @@ imgspc.make_menu_item('ImgSpc/Import...', callback='importer.import_file()', too
 ## Specifying a Callback
 To associate a callback function with a menu-item, you must provide to the `callback` parameter a string argument that meets the following format: `source_module_name.callback_name(args)` where:
 
-* `source_module_name` is the Python module that contains the callback function definition.
+* `source_module_name` is the Python module that contains the callback function definition. This can be set to `init_unreal` if you would like to use callables defined in this module.
 * `callback_name` is the name of the callback function to be executed when the menu-item is clicked.
 * `args` are any arguments to be passed in to the callback. 
 

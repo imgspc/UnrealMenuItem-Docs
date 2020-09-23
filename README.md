@@ -30,7 +30,7 @@ The core functionality of the plugin is exposed through the `imgspc.make_menu_it
 * tooltip: Tooltip associated with the menu-item.
 
 ## Extending the Level Editor Toolbar
-To extend the Level Editor toolbar, provide the name of the toolbar button to be added along with its icon (this is optional). This will add your button to the end of the toolbar.
+To extend the Level Editor toolbar, provide the name of the toolbar button to be added along with its icon (this is optional). This will add your button to the end of the toolbar. We currently only support toolbar combo buttons (that open menus) and not stand-alone toolbar button items (that execute an operation).
 ```
 imgspc.make_menu_item('ImgSpc', icon_path='MyPlugin/Icons/imgspc-logo-large.png')
 ```

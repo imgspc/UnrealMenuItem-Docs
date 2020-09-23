@@ -1,4 +1,5 @@
-# Python Toolbar Button & Menu Creator for the Unreal Editor
+# Python Toolbar Button & Menu Creator
+A handy plugin to create and extend toolbar buttons and menus in the Unreal Editor using Python.
 
 ## Getting Started
 To start extending the Editor UI in Unreal, follow these steps:

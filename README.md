@@ -101,3 +101,6 @@ imgspc.make_menu_item('LevelEditor.MainMenu/ImgSpc/Import...', callback='importe
 imgspc.make_menu_item('LevelEditor.MainMenu/ImgSpc/Export...', callback="exporter.export_file()", tooltip='Export file')
 imgspc.make_menu_item('LevelEditor.MainMenu/ImgSpc/Help/About Imaginary Spaces', callback="utilities.load_docs()", tooltip='Load documentation')
 ```
+
+# Support
+If you have any questions or comments, please visit our [thread on the Unreal Forum](https://forums.unrealengine.com/unreal-engine/marketplace/1819296-python-toolbar-button-menu-creator).

@@ -4,7 +4,7 @@ A handy plugin to create and extend toolbar buttons and menus in the Unreal Edit
 ## Getting Started
 To start extending the Editor UI in Unreal, follow these steps:
 
-1. Open a project in Unreal 4.25 and create a new plugin (any template can be chosen). This can be done in the Plugins window (Edit > Plugins) by clicking the "New Plugin" button.
+1. Open a project in Unreal and create a new plugin (any template can be chosen). This can be done in the Plugins window (Edit > Plugins) by clicking the "New Plugin" button.
 2. Purchase the Python Toolbar Button and Menu Creator plugin from the Unreal Marketplace and enable it for your project in the Plugins window.
 3. Add the UnrealMenuItem module as a dependency in the plugin descriptor (.uplugin) file of your plugin.
 ```

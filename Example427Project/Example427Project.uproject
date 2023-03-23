@@ -3,4 +3,10 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": ""
+	"Plugins": [
+		{
+			"Name": "MyPlugin",
+			"Enabled": true
+		}
+	]
 }
